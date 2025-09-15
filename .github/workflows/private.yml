@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Github API
-        run: |
+        run: >
           curl -L -X PATCH
           -H "Accept: application/vnd.github+json"
           -H "Authorization: Bearer ${GITHUB_TOKEN}"
