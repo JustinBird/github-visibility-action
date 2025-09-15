@@ -1,10 +1,10 @@
-name: private
+name: privacy
 
 on:
   workflow_dispatch:
 
 jobs:
-  private:
+  privacy:
     runs-on: ubuntu-latest
 
     steps:
