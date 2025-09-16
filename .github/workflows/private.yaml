@@ -1,0 +1,15 @@
+name: Test to make the repo private
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-my-action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Make the repo private
+        uses: ./action.yaml
+        with:
+          visibility: 'private'
