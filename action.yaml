@@ -3,10 +3,10 @@ author: '@justinbird'
 description: 'A GitHub action that allows you to set the visibility of the repo to either private or public.'
 inputs:
   token:
-    description: 'A GitHub personal access token with read and write access to the repository's administration'
+    description: "A GitHub personal access token with read and write access to the repository's administration"
     required: true
   visibility:
-    description: 'Either "public" or "private" depending on if you want to make the repository public or private respectively.'
+    description: "Either 'public' or 'private' depending on if you want to make the repository public or private respectively."
     required: true
 on:
   workflow_dispatch:
