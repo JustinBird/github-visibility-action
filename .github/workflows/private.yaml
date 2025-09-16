@@ -11,6 +11,6 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Make the repo private
-        uses: justinbird/github-visibility-action
+        uses: justinbird/github-visibility-action@main
         with:
           visibility: 'private'
