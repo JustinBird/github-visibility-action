@@ -1,6 +1,8 @@
 ## GitHub Visibility Action
 
 An action which can make the repository it is run in either private or public.
+
+
 The action takes in a `visibility` parameter which can be either `private` or `public` and a `token`.
 The token provided by `token` **MUST** have permission to read and write the repository's administration data.
 This is **NOT** possible with the default GitHub action token provided by `GITHUB_TOKEN` and a seperate token must be created and provided through the repository's secrets.

@@ -1,6 +1,9 @@
-name: 'Github Visibility'
+name: 'GitHub Visibility Action'
 author: '@justinbird'
 description: 'A GitHub action that allows you to set the visibility of the repo to either private or public.'
+branding:
+  icon: 'lock'
+  color: 'purple'
 inputs:
   token:
     description: "A GitHub personal access token with read and write access to the repository's administration"
